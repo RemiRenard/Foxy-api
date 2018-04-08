@@ -1,0 +1,10 @@
+extends header
+
+block content
+  div(class='text-center')
+      h1 Foxy
+      br
+      if email_verification
+        h3 Your email is now confirmed!
+      else
+        h3 Unknow Error, impossible to verify your email :(

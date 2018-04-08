@@ -1,0 +1,136 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Home page of the website')
+    meta(name='author', content='Rémi Renard')
+    title Foxy - Be prepared to the ringtone!
+    // Bootstrap Core CSS
+    link(href='lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Custom Fonts
+    link(href='https://fonts.googleapis.com/css?family=Lato', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Muli', rel='stylesheet')
+    // Plugin CSS
+    link(rel='stylesheet', href='lib/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='lib/simple-line-icons/css/simple-line-icons.css')
+    link(rel='stylesheet', href='lib/device-mockups/device-mockups.css')
+    // Theme CSS
+    link(href='css/new-age.css', rel='stylesheet')
+  body#page-top
+    nav#mainNav.navbar.navbar-default.navbar-fixed-top
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            |  Menu
+            i.fa.fa-bars
+          a.navbar-brand.page-scroll(href='#page-top') Home
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href='#download') Download
+            li
+              a.page-scroll(href='#features') Features
+        // /.navbar-collapse
+      // /.container-fluid
+    header
+      .container
+        .row
+          .col-sm-7
+            .header-content
+              .header-content-inner
+                h1
+                  |  Foxy is an application allowing you to ring friend's phone with a custom sound !
+                a.btn.btn-outline.btn-xl.page-scroll(href='#download') Start Now for Free!
+          .col-sm-5
+            .device-container
+              .device-mockup.nexus_6.portrait
+                .device
+                  .screen
+                    img.img-responsive(src='img/notification-screen.jpg', alt='')
+                  .button
+    section#download.download.bg-primary.text-center
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            h2.section-heading Foxy
+            p
+              | Our app is available only on the play store for now but it will be on the app store as soon as possible!
+              | Download now to get started!
+            .badges
+              a.badge-link(href='https://play.google.com/store/apps/details?id=com.app.foxy')
+                img(src='img/google-play-badge.svg', alt='')
+              a.badge-link(href='#download')
+                img(src='img/app-store-badge.svg', alt='Not available')
+    section#features.features
+      .container
+        .row
+          .col-lg-12.text-center
+            .section-heading
+              h2 Unlimited songs, Unlimited Fun
+              p.text-muted Check out what you can do with this app!
+              hr
+        .row
+          .col-md-4
+            .device-container
+              .device-mockup.nexus_6.portrait
+                .device
+                  .screen
+                    // Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!
+                    img.img-responsive(src='img/notification-list-screen.jpg', alt='')
+                  .button
+                    // You can hook the "home button" to some JavaScript events or just remove it
+          .col-md-8
+            .container-fluid
+              .row
+                .col-md-6
+                  .feature-item
+                    i.icon-trophy.text-primary
+                    h3 Be rewarded
+                    p.text-muted Win trophies, badge, and fame!
+                .col-md-6
+                  .feature-item
+                    i.icon-magnifier.text-primary
+                    h3 Discover new ringtones
+                    p.text-muted By typing a secret keyword you can send unknown ringtones to your friends, you can be surprised. (A keyword can be a film title, a simple word or whatever)
+              .row
+                .col-md-6
+                  .feature-item
+                    i.icon-music-tone.text-primary
+                    h3 Record yourself
+                    p.text-muted You can record your own voice to send it as a ringtone to your friends.
+                .col-md-6
+                  .feature-item
+                    i.icon-lock-open.text-primary
+                    h3 Secure
+                    p.text-muted Personnal data are 100% secure.
+    section.cta
+      .cta-content
+        .container
+          h2
+            | Stop waiting.
+            br
+            | Start playing.
+          a.btn.btn-outline.btn-xl.page-scroll(href='#download') Let's Get Started!
+      .overlay
+    footer
+      .container
+        p © 2018 Foxy. All Rights Reserved.
+        ul.list-inline
+          li
+            a(href='./privacy-policy') Privacy
+          li
+            a(href='./terms-and-conditions') Terms and conditions
+    // jQuery
+    script(src='lib/jquery/jquery.min.js')
+    // Bootstrap Core JavaScript
+    script(src='lib/bootstrap/js/bootstrap.min.js')
+    // Plugin JavaScript
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+    // Theme JavaScript
+    script(src='js/new-age.js')

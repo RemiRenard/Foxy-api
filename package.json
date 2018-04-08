@@ -1,0 +1,36 @@
+{
+  "name": "foxy-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.179.0",
+    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "bufferutil": "3.0.3",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "fcm-push": "^1.1.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.4.2",
+    "moment": "^2.20.1",
+    "mongoose": "^4.13.9",
+    "morgan": "~1.8.1",
+    "multer": "^1.3.0",
+    "node-gcm": "^0.14.6",
+    "path": "^0.12.7",
+    "pug": "~2.0.0-beta11",
+    "random-int": "^1.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "request-promise-any": "^1.0.5",
+    "sendgrid": "^5.2.3",
+    "serve-favicon": "~2.4.2",
+    "utf-8-validate": "4.0.0"
+  }
+}
